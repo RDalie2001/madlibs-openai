@@ -1,0 +1,15 @@
+body {
+  margin: 0;   /* To reset any default margin */
+  min-height: 100vh;  /* Full height of the viewport */
+  display: flex;
+  align-items: center;  /* Centers items on the cross axis - in this case vertically */
+  justify-content: center;
+  background-color: #ED9B40;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

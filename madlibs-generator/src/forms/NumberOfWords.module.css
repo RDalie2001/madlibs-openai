@@ -1,0 +1,42 @@
+.label {
+    margin-bottom: 5px;
+    text-align: left; 
+    font-weight: bolder;
+    color: white;
+    /* Spacing between label and input */
+}
+
+.input {
+    width: 100%; /* This will ensure all inputs take the full width of the form */
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    margin: 20px;
+    width: 50%;/* This ensures padding and borders are included in the element's total width and height */
+}
+
+.button {
+    background-color: #AA8F66;  /* Primary color */
+    border: none;
+    border-radius: 25px;  /* Rounded edges */
+    color: white;  /* Text color */
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;  /* Transition for hover effect */
+
+    /* Shadow */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #BA3B46;  /* Darker shade of primary color */
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.25);
+}
