@@ -37,8 +37,8 @@ npm start
 Now, navigate to the provided localhost address in your browser and enjoy generating madlibs!
 
 ## API Endpoints
-GET /api/some-endpoint: Description for this endpoint.
-POST /api/another-endpoint: Description for this endpoint.
+1. GET /api/some-endpoint: Description for this endpoint.
+2. POST /api/another-endpoint: Description for this endpoint.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and open a pull request with your changes, or open an issue to discuss a proposed change.
